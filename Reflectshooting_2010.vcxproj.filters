@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{491bf024-32a2-4086-8267-a065907d2d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{fc336f89-680e-4d0f-a0f0-927f92b57dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{0a1d9530-2979-4501-a30e-67386808903d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Image">
+      <UniqueIdentifier>{2c46931b-7caa-4090-829c-5e31558aaa87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Sound">
+      <UniqueIdentifier>{5ef4aff8-8007-4849-acf9-6de4d7ba4fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Particle">
+      <UniqueIdentifier>{dce6462a-47a9-4d67-a371-e1bc01c0c71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Object">
+      <UniqueIdentifier>{200bf8ae-7547-4099-9c8d-43abf830bcd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\System">
+      <UniqueIdentifier>{b28a38c6-b083-4159-9dd9-fb7a3f9e79c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Input">
+      <UniqueIdentifier>{16ff4db8-4d51-4185-b3e4-f60a9b524dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Scene">
+      <UniqueIdentifier>{bf5d0dba-49d2-4333-bb75-a39a395ca939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Camera">
+      <UniqueIdentifier>{03abeccf-5e52-4e11-b7bd-8c06beeca164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider">
+      <UniqueIdentifier>{983eda8a-7e9f-42e9-b7e2-906a20c082b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Renderer">
+      <UniqueIdentifier>{c8cc1df5-c840-4356-a7d4-0a1a50057854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Path">
+      <UniqueIdentifier>{86d50f09-6157-473e-b140-eb6e3553abfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\TimeLine">
+      <UniqueIdentifier>{c0cd5fe2-90df-4760-afb1-e80aaebb3aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script">
+      <UniqueIdentifier>{acb90b1e-7440-4cf1-aeb8-1d069dea744b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\Player">
+      <UniqueIdentifier>{9f8928f2-b111-4521-9f75-16ce2fb8a416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\Bullet">
+      <UniqueIdentifier>{8b7f2827-aa31-4c87-9a14-83c75b0711de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\Item">
+      <UniqueIdentifier>{5559bafd-71a6-492c-b245-a970491c8459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\Enemy">
+      <UniqueIdentifier>{d1edd01e-8ea2-4c2e-a333-9f34c980f755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\TimeLine">
+      <UniqueIdentifier>{1abacf31-9f51-47d5-9d54-9e9f4c8297ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{077ff2f3-bc3d-459d-b7a3-8fa1444ca351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Loading">
+      <UniqueIdentifier>{8826b95a-d46b-46be-900c-5cf2323160ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Ingame">
+      <UniqueIdentifier>{d500ec5f-278d-4012-8fd9-ddcead6a5952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Result">
+      <UniqueIdentifier>{217b4de5-df8a-4981-be6d-cc00b20c5c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Title">
+      <UniqueIdentifier>{d8102e96-b833-4007-a2e0-66b6baa79d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\Mission">
+      <UniqueIdentifier>{36e37e0c-0e9f-4d68-8fe7-6a5384b64d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\Enemy\Zako">
+      <UniqueIdentifier>{33a720e4-76ed-42e1-ba40-f36883169dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\Enemy\Boss">
+      <UniqueIdentifier>{20e8f7a7-376f-4380-8322-95179351d377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\Enemy\MidBoss">
+      <UniqueIdentifier>{1e2e993e-0347-424b-aee9-d51a54bbe747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\TimeLine\Zako">
+      <UniqueIdentifier>{811c5d90-b53f-4d5b-aa24-ea0528efcadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\TimeLine\Boss1">
+      <UniqueIdentifier>{bde9ed03-750d-4610-abc1-9de69c83cad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\TimeLine\Boss2">
+      <UniqueIdentifier>{72b20d9d-0d35-485a-8445-71740f783e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\TimeLine\MidBoss1">
+      <UniqueIdentifier>{c842ed68-244e-4e66-b6f5-c8ed0ea025ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Script\TimeLine\MidBoss2">
+      <UniqueIdentifier>{3372bb00-2c02-4542-8b04-7344d7dbf866}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Reflectshooting.cpp" />
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp" />
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp" />
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="cImageManager.cpp">
+      <Filter>Manager\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputManager.cpp">
+      <Filter>Manager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraManager.cpp">
+      <Filter>Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cSystemManager.cpp">
+      <Filter>Manager\System</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>Manager\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>Manager\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticle.cpp">
+      <Filter>Manager\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleAnim.cpp">
+      <Filter>Manager\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleBase.cpp">
+      <Filter>Manager\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleFunc.cpp">
+      <Filter>Manager\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleManager.cpp">
+      <Filter>Manager\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleText.cpp">
+      <Filter>Manager\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="cPath.cpp">
+      <Filter>Component\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="cRenderer.cpp">
+      <Filter>Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine.cpp">
+      <Filter>Component\TimeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>Component\Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoadingScene.cpp">
+      <Filter>Scene\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage1Scene.cpp">
+      <Filter>Scene\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage2Scene.cpp">
+      <Filter>Scene\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="cMission.cpp">
+      <Filter>Component\Script\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet.cpp">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletBase.cpp">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletFriction.cpp">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletHoming.cpp">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cAsteroid.cpp">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem.cpp">
+      <Filter>Component\Script\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy.cpp">
+      <Filter>Component\Script\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cZako.cpp">
+      <Filter>Component\Script\Enemy\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Zako1.cpp">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Zako2.cpp">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Zako3.cpp">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Zako4.cpp">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Zako5.cpp">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Zako6.cpp">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Zako7.cpp">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Zako8.cpp">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cBomb.cpp">
+      <Filter>Component\Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cShield.cpp">
+      <Filter>Component\Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss1.cpp">
+      <Filter>Component\Script\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss2.cpp">
+      <Filter>Component\Script\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="cMidBoss1.cpp">
+      <Filter>Component\Script\Enemy\MidBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="cMidBoss2.cpp">
+      <Filter>Component\Script\Enemy\MidBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_MidBoss11.cpp">
+      <Filter>Component\Script\TimeLine\MidBoss1</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_MidBoss12.cpp">
+      <Filter>Component\Script\TimeLine\MidBoss1</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Boss11.cpp">
+      <Filter>Component\Script\TimeLine\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Boss12.cpp">
+      <Filter>Component\Script\TimeLine\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Boss13.cpp">
+      <Filter>Component\Script\TimeLine\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_MidBoss21.cpp">
+      <Filter>Component\Script\TimeLine\MidBoss2</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_MidBoss22.cpp">
+      <Filter>Component\Script\TimeLine\MidBoss2</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Zako9.cpp">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss2Tail.cpp">
+      <Filter>Component\Script\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Boss21.cpp">
+      <Filter>Component\Script\TimeLine\Boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Boss22.cpp">
+      <Filter>Component\Script\TimeLine\Boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Boss23.cpp">
+      <Filter>Component\Script\TimeLine\Boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeLine_Boss24.cpp">
+      <Filter>Component\Script\TimeLine\Boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="cResultScene.cpp">
+      <Filter>Scene\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="cTitleScene.cpp">
+      <Filter>Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletBFG.cpp">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="DXUT\Optional\SDKsound.h" />
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="cSingleton.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManager.h">
+      <Filter>Manager\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputManager.h">
+      <Filter>Manager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraManager.h">
+      <Filter>Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cSystemManager.h">
+      <Filter>Manager\System</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>Manager\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>Manager\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticle.h">
+      <Filter>Manager\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleAnim.h">
+      <Filter>Manager\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleBase.h">
+      <Filter>Manager\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleFunc.h">
+      <Filter>Manager\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleManager.h">
+      <Filter>Manager\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleText.h">
+      <Filter>Manager\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="cPath.h">
+      <Filter>Component\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="cRenderer.h">
+      <Filter>Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine.h">
+      <Filter>Component\TimeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>Component\Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoadingScene.h">
+      <Filter>Scene\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage1Scene.h">
+      <Filter>Scene\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage2Scene.h">
+      <Filter>Scene\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="cMission.h">
+      <Filter>Component\Script\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet.h">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletBase.h">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletFriction.h">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletHoming.h">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cAsteroid.h">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem.h">
+      <Filter>Component\Script\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy.h">
+      <Filter>Component\Script\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cZako.h">
+      <Filter>Component\Script\Enemy\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Zako1.h">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Zako2.h">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Zako3.h">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Zako4.h">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Zako5.h">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Zako6.h">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Zako7.h">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Zako8.h">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cBomb.h">
+      <Filter>Component\Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="cShield.h">
+      <Filter>Component\Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss1.h">
+      <Filter>Component\Script\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss2.h">
+      <Filter>Component\Script\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="cMidBoss1.h">
+      <Filter>Component\Script\Enemy\MidBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="cMidBoss2.h">
+      <Filter>Component\Script\Enemy\MidBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_MidBoss11.h">
+      <Filter>Component\Script\TimeLine\MidBoss1</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_MidBoss12.h">
+      <Filter>Component\Script\TimeLine\MidBoss1</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Boss11.h">
+      <Filter>Component\Script\TimeLine\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Boss12.h">
+      <Filter>Component\Script\TimeLine\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Boss13.h">
+      <Filter>Component\Script\TimeLine\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_MidBoss21.h">
+      <Filter>Component\Script\TimeLine\MidBoss2</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_MidBoss22.h">
+      <Filter>Component\Script\TimeLine\MidBoss2</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Zako9.h">
+      <Filter>Component\Script\TimeLine\Zako</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss2Tail.h">
+      <Filter>Component\Script\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Boss21.h">
+      <Filter>Component\Script\TimeLine\Boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Boss22.h">
+      <Filter>Component\Script\TimeLine\Boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Boss23.h">
+      <Filter>Component\Script\TimeLine\Boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeLine_Boss24.h">
+      <Filter>Component\Script\TimeLine\Boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="cResultScene.h">
+      <Filter>Scene\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="cTitleScene.h">
+      <Filter>Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletBFG.h">
+      <Filter>Component\Script\Bullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Reflectshooting.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
